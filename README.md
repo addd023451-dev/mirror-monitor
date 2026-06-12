@@ -20,3 +20,6 @@
 ```bash
 git clone [https://github.com/YOUR_USERNAME/mirror-monitor.git](https://github.com/YOUR_USERNAME/mirror-monitor.git)
 cd mirror-monitor
+
+۲. برای ساخت محیط ایزوله و نصب ابزارها کافیست دستور زیر را بزنید:
+make
