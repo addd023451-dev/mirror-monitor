@@ -18,7 +18,7 @@
 ### مراحل راه‌اندازی
 ۱. ابتدا مخزن را کلون کنید:
 ```bash
-git clone [https://github.com/YOUR_USERNAME/mirror-monitor.git](https://github.com/YOUR_USERNAME/mirror-monitor.git)
+git clone [https://github.com/addd023451-dev/mirror-monitor.git](https://github.com/addd023451-dev/mirror-monitor.git)
 cd mirror-monitor
 
 ۲. برای ساخت محیط ایزوله و نصب ابزارها کافیست دستور زیر را بزنید:
