@@ -27,3 +27,25 @@ make run
 ## اجرای ادواری (اتوماتیک)
 برای اینکه برنامه هر یک ساعت یک‌بار به صورت خودکار اجرا شود، دستور زیر را بزنید تا راهنمای تنظیم `crontab` به شما نمایش داده شود:
 make schedule
+
+## برای اجرا در ویندوز:
+۱. ابتدا مخزن را کلون کنید:
+```bash
+git clone [https://github.com/YOUR_USERNAME/mirror-monitor.git](https://github.com/YOUR_USERNAME/mirror-monitor.git)
+cd mirror-monitor
+
+2. مراحل زیر را به ترتیب در پوشه پروژه اجرا کنید:
+
+- ساخت محیط مجازی:
+
+python -m venv venv
+- فعال‌سازی محیط مجازی:
+
+venv\Scripts\activate
+- نصب وابستگی‌ها:
+
+pip install -r requirements.txt
+- اجرای برنامه:
+
+python monitor.py
+پس از اجرا، خروجی برنامه در کنسول چاپ شده و فایل report.json تولید می‌شود.
